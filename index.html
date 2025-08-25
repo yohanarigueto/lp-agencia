@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Agência de Marketing</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ99OJFw/bHlG/49oN4vA3iVzP9CqMv3K+a8b2X8aL6kR3Lg+jR7aJ5O8m+9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Seção 1: Hero -->
+    <header class="bg-gray-900 text-white py-24 px-6 md:px-12 rounded-b-[50px]">
+        <div class="container text-center">
+            <!-- Frase de Impacto -->
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
+                Transformamos marcas em referências no digital.
+            </h1>
+            <!-- Subheadline -->
+            <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                Estratégias de Marketing de Conteúdo, Social Media e Tráfego Pago que geram resultados reais para o seu negócio.
+            </p>
+            <!-- Botão CTA -->
+            <a href="#" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                Fale com a gente
+            </a>
+        </div>
+    </header>
+
+    <!-- Seção 2: Sobre Nós -->
+    <section id="about" class="py-24 px-6">
+        <div class="container flex flex-col lg:flex-row items-center gap-12">
+            <!-- Texto e números -->
+            <div class="lg:w-1/2">
+                <h2 class="text-3xl font-bold mb-6 text-gray-900">Sobre nós</h2>
+                <p class="text-gray-600 mb-8 text-lg leading-relaxed">
+                    Somos uma equipe apaixonada por conectar marcas a pessoas. Nossa missão é criar estratégias digitais que não apenas atraem, mas também constroem relacionamentos duradouros e transformam seguidores em clientes fiéis. Trabalhamos com transparência, criatividade e foco em resultados mensuráveis.
+                </p>
+                <!-- Destaques em números -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center mt-10">
+                    <div>
+                        <p class="text-4xl font-bold text-indigo-600">5+</p>
+                        <p class="text-sm font-medium text-gray-500 mt-1">Anos de Experiência</p>
+                    </div>
+                    <div>
+                        <p class="text-4xl font-bold text-indigo-600">150+</p>
+                        <p class="text-sm font-medium text-gray-500 mt-1">Clientes Atendidos</p>
+                    </div>
+                    <div>
+                        <p class="text-4xl font-bold text-indigo-600">80%</p>
+                        <p class="text-sm font-medium text-gray-500 mt-1">Aumento de Leads</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Foto da equipe (Placeholder) -->
+            <div class="lg:w-1/2 mt-10 lg:mt-0">
+                <img src="https://placehold.co/600x400/F0F4F8/6B7280?text=Foto+da+Equipe" alt="Foto da equipe" class="rounded-3xl shadow-2xl w-full h-auto object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Serviços -->
+    <section id="services" class="py-24 px-6 bg-gray-100">
+        <div class="container text-center">
+            <h2 class="text-3xl font-bold mb-12 text-gray-900">Nossos Serviços</h2>
+            <!-- Cards de Serviço -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1: Social Media -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                    <i class="fa-brands fa-instagram text-4xl text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Social Media</h3>
+                    <p class="text-gray-600 mb-4">Gerenciamento e criação de conteúdo para redes sociais, construindo sua comunidade online.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">Saiba mais &rarr;</a>
+                </div>
+                <!-- Card 2: Tráfego Pago -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                    <i class="fa-solid fa-chart-line text-4xl text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Tráfego Pago</h3>
+                    <p class="text-gray-600 mb-4">Campanhas otimizadas no Google Ads, Meta Ads e TikTok para atrair clientes qualificados.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">Saiba mais &rarr;</a>
+                </div>
+                <!-- Card 3: Marketing de Conteúdo -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                    <i class="fa-solid fa-pencil-alt text-4xl text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Marketing de Conteúdo</h3>
+                    <p class="text-gray-600 mb-4">Criação de blogs, e-books e materiais ricos que educam seu público e geram leads.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">Saiba mais &rarr;</a>
+                </div>
+                <!-- Card 4: Branding -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                    <i class="fa-solid fa-lightbulb text-4xl text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Branding</h3>
+                    <p class="text-gray-600 mb-4">Definição de identidade de marca, posicionamento e tom de voz para se destacar no mercado.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">Saiba mais &rarr;</a>
+                </div>
+                <!-- Card 5: Websites -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                    <i class="fa-solid fa-code text-4xl text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Criação de Websites</h3>
+                    <p class="text-gray-600 mb-4">Desenvolvimento de sites profissionais, responsivos e otimizados para SEO.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium transition duration-300">Saiba mais &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 4: Depoimentos / Cases -->
+    <section id="testimonials" class="py-24 px-6">
+        <div class="container">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">O que nossos clientes dizem</h2>
+            <!-- Depoimentos -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Depoimento 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <img src="https://placehold.co/60x60/D1D5DB/6B7280?text=JP" alt="Foto de João Pedro" class="rounded-full mr-4">
+                        <div>
+                            <p class="font-semibold text-gray-900">João Pedro</p>
+                            <p class="text-sm text-gray-500">CEO, Tech Solutions</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"A equipe superou todas as nossas expectativas. Em 3 meses, o tráfego orgânico do nosso site triplicou! O profissionalismo e a dedicação são impressionantes."</p>
+                </div>
+                <!-- Depoimento 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                    <div class="flex items-center mb-4">
+                        <img src="https://placehold.co/60x60/D1D5DB/6B7280?text=MS" alt="Foto de Mariana Souza" class="rounded-full mr-4">
+                        <div>
+                            <p class="font-semibold text-gray-900">Mariana Souza</p>
+                            <p class="text-sm text-gray-500">Diretora de Marketing, Alimentos S.A.</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"Conseguimos um aumento de 200% em seguidores qualificados nas redes sociais. A criatividade do conteúdo e o planejamento estratégico foram impecáveis."</p>
+                </div>
+            </div>
+            <!-- Destaque de Cases (opcional) -->
+            <div class="mt-16 text-center">
+                <p class="text-lg font-medium text-gray-700 mb-4">Resultados que Geramos:</p>
+                <div class="flex flex-wrap justify-center gap-8">
+                    <div class="bg-indigo-100 text-indigo-700 p-4 rounded-xl font-bold text-lg">
+                        +200% em Seguidores
+                    </div>
+                    <div class="bg-indigo-100 text-indigo-700 p-4 rounded-xl font-bold text-lg">
+                        +35% em Leads Qualificados
+                    </div>
+                    <div class="bg-indigo-100 text-indigo-700 p-4 rounded-xl font-bold text-lg">
+                        150% de ROI em Ads
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 5: Call to Action (Contato) -->
+    <section id="contact" class="bg-gray-900 text-white py-24 px-6 md:px-12 rounded-t-[50px] text-center">
+        <div class="container max-w-2xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Vamos crescer juntos?</h2>
+            <p class="text-lg text-gray-300 mb-8">
+                Entre em contato e receba uma proposta personalizada para sua marca.
+            </p>
+            <!-- Botão para WhatsApp -->
+            <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20marketing." target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                <i class="fa-brands fa-whatsapp mr-2"></i> Fale com a gente no WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8 text-center text-sm">
+        <div class="container">
+            <p>&copy; 2024 Sua Agência de Marketing. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
